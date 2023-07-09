@@ -1,1 +1,161 @@
-[{"uid":"dc48f2680232e8e3","name":"passwordIsRequired","time":{"duration":154},"status":"passed","severity":"normal"},{"uid":"84c714b62b7f4b42","name":"nameIsRequired","time":{"duration":150},"status":"passed","severity":"normal"},{"uid":"126262d19453cd89","name":"userDataCannotBeUpdatedWithoutAuth","time":{"duration":148},"status":"passed","severity":"normal"},{"uid":"7ac45e269d9caf42","name":"loginWithWrongPassword","time":{"duration":750},"status":"passed","severity":"normal"},{"uid":"141168073a41bd87","name":"userCanLogin","time":{"duration":709},"status":"passed","severity":"normal"},{"uid":"d3dfeacb9abccacd","name":"sameUserCannotBeRegistrated","time":{"duration":333},"status":"passed","severity":"normal"},{"uid":"3f6be58d63d0da91","name":"userDataCanBeUpdated","time":{"duration":1224},"status":"passed","severity":"normal"},{"uid":"235dbe8dd7c6e59b","name":"emailIsRequired","time":{"duration":143},"status":"passed","severity":"normal"},{"uid":"c00f323731436ab3","name":"OrderCanBeCreated","time":{"duration":1406},"status":"passed","severity":"normal"},{"uid":"de1c7112cedc5e2f","name":"OrderCannotBeCreatedWithWrongIngredients","time":{"duration":961},"status":"passed","severity":"normal"},{"uid":"1ab4cd10c9343327","name":"orderListCanBeGottenWithAuth","time":{"duration":961},"status":"passed","severity":"normal"},{"uid":"5a15f144dc81599","name":"OrderCannotBeCreatedWithoutIngredients","time":{"duration":862},"status":"passed","severity":"normal"},{"uid":"6630df700d02cc49","name":"OrderCanBeCreatedWithoutAuth","time":{"duration":1132},"status":"passed","severity":"normal"},{"uid":"2519686aa4babff2","name":"userCanBeRegistrated","time":{"duration":605},"status":"passed","severity":"normal"},{"uid":"2749f7697da2f120","name":"loginWithWrongEmail","time":{"duration":672},"status":"passed","severity":"normal"},{"uid":"44c2ef9950776f39","name":"orderListCanBeGottenWithAuth","time":{"duration":4059},"status":"passed","severity":"normal"}]
+[ {
+  "uid" : "ec0552a0236ed758",
+  "name" : "Получение списока заказов с авторизацией",
+  "time" : {
+    "start" : 1688830228932,
+    "stop" : 1688830229839,
+    "duration" : 907
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b277f13d5789ecd6",
+  "name" : "Изменение данных пользователя невозможно без авторизацией",
+  "time" : {
+    "start" : 1688830231196,
+    "stop" : 1688830231338,
+    "duration" : 142
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7727cf45d77ab1c0",
+  "name" : "Создание заказа без авторизации",
+  "time" : {
+    "start" : 1688830227009,
+    "stop" : 1688830228083,
+    "duration" : 1074
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e1f3374ef07f68f7",
+  "name" : "Изменение данных пользователя с авторизацией",
+  "time" : {
+    "start" : 1688830231342,
+    "stop" : 1688830232543,
+    "duration" : 1201
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2efa9272a803db66",
+  "name" : "Авторизация юзера невозможна с неправильным паролем",
+  "time" : {
+    "start" : 1688830233302,
+    "stop" : 1688830234028,
+    "duration" : 726
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a730a14063779ae4",
+  "name" : "Нельзя создать заказ с неправильным ингредиентом",
+  "time" : {
+    "start" : 1688830220363,
+    "stop" : 1688830224528,
+    "duration" : 4165
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ea670944c8560d71",
+  "name" : "Авторизация юзера",
+  "time" : {
+    "start" : 1688830232548,
+    "stop" : 1688830233295,
+    "duration" : 747
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b6ba06d4617808f5",
+  "name" : "Нельзя создать юзера, не указав email",
+  "time" : {
+    "start" : 1688830230339,
+    "stop" : 1688830230502,
+    "duration" : 163
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a5035b8a305ba259",
+  "name" : "Нельзя создать заказ без указания ингредиентов",
+  "time" : {
+    "start" : 1688830224623,
+    "stop" : 1688830225502,
+    "duration" : 879
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "79f89f823d768c9a",
+  "name" : "Авторизация юзера невозможна с неправильным паролем",
+  "time" : {
+    "start" : 1688830234030,
+    "stop" : 1688830234648,
+    "duration" : 618
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "eb68a72e04277176",
+  "name" : "Нельзя создать двух одинаковых юзеров",
+  "time" : {
+    "start" : 1688830229984,
+    "stop" : 1688830230337,
+    "duration" : 353
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "42c3aca028845c29",
+  "name" : "Регистрация юзера",
+  "time" : {
+    "start" : 1688830230654,
+    "stop" : 1688830231194,
+    "duration" : 540
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7932bb59a37e3c3d",
+  "name" : "Нельзя получить список заказов без авторизации",
+  "time" : {
+    "start" : 1688830228092,
+    "stop" : 1688830228928,
+    "duration" : 836
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "766da4284d9eb58b",
+  "name" : "Нельзя создать юзера, не указав пароль",
+  "time" : {
+    "start" : 1688830230505,
+    "stop" : 1688830230651,
+    "duration" : 146
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "660a3929946ca0f5",
+  "name" : "Создание заказа",
+  "time" : {
+    "start" : 1688830225507,
+    "stop" : 1688830227006,
+    "duration" : 1499
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4eb4733d9cb65c0e",
+  "name" : "Нельзя создать юзера, не указав имя",
+  "time" : {
+    "start" : 1688830229841,
+    "stop" : 1688830229983,
+    "duration" : 142
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

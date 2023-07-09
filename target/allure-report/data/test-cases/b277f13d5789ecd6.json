@@ -1,0 +1,102 @@
+{
+  "uid" : "b277f13d5789ecd6",
+  "name" : "Изменение данных пользователя невозможно без авторизацией",
+  "fullName" : "ru.praktikum.burgers.api.user.update.UserUpdateNegativeTest.userDataCannotBeUpdatedWithoutAuth",
+  "historyId" : "e187c26c4d4b645c3e098f191ecda76d",
+  "time" : {
+    "start" : 1688830231196,
+    "stop" : 1688830231338,
+    "duration" : 142
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Генерация данных пользователя",
+      "time" : {
+        "start" : 1688830231197,
+        "stop" : 1688830231197,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Изменение данных пользователя",
+      "time" : {
+        "start" : 1688830231197,
+        "stop" : 1688830231322,
+        "duration" : 125
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "ru.praktikum.burgers.api.model.User@24244ea"
+      }, {
+        "name" : "token",
+        "value" : ""
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "ru.praktikum.burgers.api.user.update"
+  }, {
+    "name" : "testClass",
+    "value" : "ru.praktikum.burgers.api.user.update.UserUpdateNegativeTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "userDataCannotBeUpdatedWithoutAuth"
+  }, {
+    "name" : "suite",
+    "value" : "ru.praktikum.burgers.api.user.update.UserUpdateNegativeTest"
+  }, {
+    "name" : "host",
+    "value" : "alexandra"
+  }, {
+    "name" : "thread",
+    "value" : "68606@alexandra.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b277f13d5789ecd6.json",
+  "parameterValues" : [ ]
+}

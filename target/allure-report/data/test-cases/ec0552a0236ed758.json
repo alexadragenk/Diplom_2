@@ -1,0 +1,153 @@
+{
+  "uid" : "ec0552a0236ed758",
+  "name" : "Получение списока заказов с авторизацией",
+  "fullName" : "ru.praktikum.burgers.api.order.get.GetUserOrderWithAuthTest.orderListCanBeGottenWithAuth",
+  "historyId" : "ca92a92ab78b34a8307e2dc466520f6d",
+  "time" : {
+    "start" : 1688830228932,
+    "stop" : 1688830229839,
+    "duration" : 907
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Генерация данных пользователя",
+      "time" : {
+        "start" : 1688830228932,
+        "stop" : 1688830228933,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Регистрация пользователя",
+      "time" : {
+        "start" : 1688830228933,
+        "stop" : 1688830229141,
+        "duration" : 208
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "ru.praktikum.burgers.api.model.User@7aad7df5"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Авторизация пользователя",
+      "time" : {
+        "start" : 1688830229157,
+        "stop" : 1688830229356,
+        "duration" : 199
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "credentials",
+        "value" : "ru.praktikum.burgers.api.model.Credentials@711261c7"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Получение заказов конкретного пользователя",
+      "time" : {
+        "start" : 1688830229374,
+        "stop" : 1688830229541,
+        "duration" : 167
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "token",
+        "value" : "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0YTk4MTE1OWVkMjgwMDAxYjM0NDY2ZSIsImlhdCI6MTY4ODgzMDIyOSwiZXhwIjoxNjg4ODMxNDI5fQ.8285i0uprix_1mNT0BsRfXxjabbzED3-8TDG9lQZNB0"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Удаление пользователя",
+      "time" : {
+        "start" : 1688830229572,
+        "stop" : 1688830229830,
+        "duration" : 258
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "token",
+        "value" : "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0YTk4MTE1OWVkMjgwMDAxYjM0NDY2ZSIsImlhdCI6MTY4ODgzMDIyOSwiZXhwIjoxNjg4ODMxNDI5fQ.8285i0uprix_1mNT0BsRfXxjabbzED3-8TDG9lQZNB0"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 5,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "ru.praktikum.burgers.api.order.get"
+  }, {
+    "name" : "testClass",
+    "value" : "ru.praktikum.burgers.api.order.get.GetUserOrderWithAuthTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "orderListCanBeGottenWithAuth"
+  }, {
+    "name" : "suite",
+    "value" : "ru.praktikum.burgers.api.order.get.GetUserOrderWithAuthTest"
+  }, {
+    "name" : "host",
+    "value" : "alexandra"
+  }, {
+    "name" : "thread",
+    "value" : "68606@alexandra.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ec0552a0236ed758.json",
+  "parameterValues" : [ ]
+}

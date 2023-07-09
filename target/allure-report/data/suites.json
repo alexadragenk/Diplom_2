@@ -1,1 +1,253 @@
-{"uid":"98d3104e051c652961429bf95fa0b5d6","children":[{"name":"userregister.UserRegisterNegativeTests","children":[{"name":"passwordIsRequired","uid":"dc48f2680232e8e3","parentUid":"960a098ca16dc3de569d6e4d12bea14b","status":"passed","time":{"duration":154},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":0,"retriesStatusChange":false,"parameters":[],"tags":[]},{"name":"nameIsRequired","uid":"84c714b62b7f4b42","parentUid":"960a098ca16dc3de569d6e4d12bea14b","status":"passed","time":{"duration":150},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":0,"retriesStatusChange":false,"parameters":[],"tags":[]},{"name":"sameUserCannotBeRegistrated","uid":"d3dfeacb9abccacd","parentUid":"960a098ca16dc3de569d6e4d12bea14b","status":"passed","time":{"duration":333},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":0,"retriesStatusChange":false,"parameters":[],"tags":[]},{"name":"emailIsRequired","uid":"235dbe8dd7c6e59b","parentUid":"960a098ca16dc3de569d6e4d12bea14b","status":"passed","time":{"duration":143},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":0,"retriesStatusChange":false,"parameters":[],"tags":[]}],"uid":"960a098ca16dc3de569d6e4d12bea14b"},{"name":"userupdate.UserUpdateNegativeTest","children":[{"name":"userDataCannotBeUpdatedWithoutAuth","uid":"126262d19453cd89","parentUid":"66b4790244506294498b6300dd716155","status":"passed","time":{"duration":148},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":0,"retriesStatusChange":false,"parameters":[],"tags":[]}],"uid":"66b4790244506294498b6300dd716155"},{"name":"userlogin.UserLoginNegativeTests","children":[{"name":"loginWithWrongPassword","uid":"7ac45e269d9caf42","parentUid":"44cce269315e3b0f7995e9f8d0bf60ca","status":"passed","time":{"duration":750},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":0,"retriesStatusChange":false,"parameters":[],"tags":[]},{"name":"loginWithWrongEmail","uid":"2749f7697da2f120","parentUid":"44cce269315e3b0f7995e9f8d0bf60ca","status":"passed","time":{"duration":672},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":0,"retriesStatusChange":false,"parameters":[],"tags":[]}],"uid":"44cce269315e3b0f7995e9f8d0bf60ca"},{"name":"userlogin.UserLoginPositiveTest","children":[{"name":"userCanLogin","uid":"141168073a41bd87","parentUid":"624a8fa3accebe32c049fcce4a089cf2","status":"passed","time":{"duration":709},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":0,"retriesStatusChange":false,"parameters":[],"tags":[]}],"uid":"624a8fa3accebe32c049fcce4a089cf2"},{"name":"userupdate.UserUpdatePositiveTest","children":[{"name":"userDataCanBeUpdated","uid":"3f6be58d63d0da91","parentUid":"81ad507dc170c536c7aa4b2289a022d2","status":"passed","time":{"duration":1224},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":0,"retriesStatusChange":false,"parameters":[],"tags":[]}],"uid":"81ad507dc170c536c7aa4b2289a022d2"},{"name":"createorder.CreateOrderPositiveTest","children":[{"name":"OrderCanBeCreated","uid":"c00f323731436ab3","parentUid":"d15aec18f7d266c27f4062503b7fa99c","status":"passed","time":{"duration":1406},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":0,"retriesStatusChange":false,"parameters":[],"tags":[]},{"name":"OrderCanBeCreatedWithoutAuth","uid":"6630df700d02cc49","parentUid":"d15aec18f7d266c27f4062503b7fa99c","status":"passed","time":{"duration":1132},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":0,"retriesStatusChange":false,"parameters":[],"tags":[]}],"uid":"d15aec18f7d266c27f4062503b7fa99c"},{"name":"createorder.CreateOrderNegativeTest","children":[{"name":"OrderCannotBeCreatedWithWrongIngredients","uid":"de1c7112cedc5e2f","parentUid":"176dec68cb85a42239d476bd2113118a","status":"passed","time":{"duration":961},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":0,"retriesStatusChange":false,"parameters":[],"tags":[]},{"name":"OrderCannotBeCreatedWithoutIngredients","uid":"5a15f144dc81599","parentUid":"176dec68cb85a42239d476bd2113118a","status":"passed","time":{"duration":862},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":0,"retriesStatusChange":false,"parameters":[],"tags":[]}],"uid":"176dec68cb85a42239d476bd2113118a"},{"name":"getorder.GetUserOrderWithoutAuthTest","children":[{"name":"orderListCanBeGottenWithAuth","uid":"1ab4cd10c9343327","parentUid":"47ddaee93a9560c1213aa6890325d742","status":"passed","time":{"duration":961},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":0,"retriesStatusChange":false,"parameters":[],"tags":[]}],"uid":"47ddaee93a9560c1213aa6890325d742"},{"name":"userregister.UserRegisterPositiveTest","children":[{"name":"userCanBeRegistrated","uid":"2519686aa4babff2","parentUid":"ed286cf27d838f93bd4a3ddbd491ec35","status":"passed","time":{"duration":605},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":0,"retriesStatusChange":false,"parameters":[],"tags":[]}],"uid":"ed286cf27d838f93bd4a3ddbd491ec35"},{"name":"getorder.GetUserOrderWithAuthTest","children":[{"name":"orderListCanBeGottenWithAuth","uid":"44c2ef9950776f39","parentUid":"66e4f2f4c5d4760889e8a3f2c0383863","status":"passed","time":{"duration":4059},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":0,"retriesStatusChange":false,"parameters":[],"tags":[]}],"uid":"66e4f2f4c5d4760889e8a3f2c0383863"}],"name":"suites"}
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "children" : [ {
+    "name" : "ru.praktikum.burgers.api.order.create.CreateOrderNegativeTest",
+    "children" : [ {
+      "name" : "Нельзя создать заказ с неправильным ингредиентом",
+      "uid" : "a730a14063779ae4",
+      "parentUid" : "fb86f08f32bd8037bd278be699b777ce",
+      "status" : "passed",
+      "time" : {
+        "start" : 1688830220363,
+        "stop" : 1688830224528,
+        "duration" : 4165
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Нельзя создать заказ без указания ингредиентов",
+      "uid" : "a5035b8a305ba259",
+      "parentUid" : "fb86f08f32bd8037bd278be699b777ce",
+      "status" : "passed",
+      "time" : {
+        "start" : 1688830224623,
+        "stop" : 1688830225502,
+        "duration" : 879
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "fb86f08f32bd8037bd278be699b777ce"
+  }, {
+    "name" : "ru.praktikum.burgers.api.order.create.CreateOrderPositiveTest",
+    "children" : [ {
+      "name" : "Создание заказа",
+      "uid" : "660a3929946ca0f5",
+      "parentUid" : "c798615d4a03b6bc575a11ee3438af64",
+      "status" : "passed",
+      "time" : {
+        "start" : 1688830225507,
+        "stop" : 1688830227006,
+        "duration" : 1499
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Создание заказа без авторизации",
+      "uid" : "7727cf45d77ab1c0",
+      "parentUid" : "c798615d4a03b6bc575a11ee3438af64",
+      "status" : "passed",
+      "time" : {
+        "start" : 1688830227009,
+        "stop" : 1688830228083,
+        "duration" : 1074
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "c798615d4a03b6bc575a11ee3438af64"
+  }, {
+    "name" : "ru.praktikum.burgers.api.order.get.GetUserOrderWithoutAuthTest",
+    "children" : [ {
+      "name" : "Нельзя получить список заказов без авторизации",
+      "uid" : "7932bb59a37e3c3d",
+      "parentUid" : "65e01d6878d507cdc3e5d7bb23ac25f1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1688830228092,
+        "stop" : 1688830228928,
+        "duration" : 836
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "65e01d6878d507cdc3e5d7bb23ac25f1"
+  }, {
+    "name" : "ru.praktikum.burgers.api.order.get.GetUserOrderWithAuthTest",
+    "children" : [ {
+      "name" : "Получение списока заказов с авторизацией",
+      "uid" : "ec0552a0236ed758",
+      "parentUid" : "a1cf2ccc3941cbbbf18f32329622bb3a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1688830228932,
+        "stop" : 1688830229839,
+        "duration" : 907
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "a1cf2ccc3941cbbbf18f32329622bb3a"
+  }, {
+    "name" : "ru.praktikum.burgers.api.user.register.UserRegisterNegativeTests",
+    "children" : [ {
+      "name" : "Нельзя создать юзера, не указав имя",
+      "uid" : "4eb4733d9cb65c0e",
+      "parentUid" : "81a99bf7ba00f1ab1483b62d0acb178f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1688830229841,
+        "stop" : 1688830229983,
+        "duration" : 142
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Нельзя создать двух одинаковых юзеров",
+      "uid" : "eb68a72e04277176",
+      "parentUid" : "81a99bf7ba00f1ab1483b62d0acb178f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1688830229984,
+        "stop" : 1688830230337,
+        "duration" : 353
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Нельзя создать юзера, не указав email",
+      "uid" : "b6ba06d4617808f5",
+      "parentUid" : "81a99bf7ba00f1ab1483b62d0acb178f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1688830230339,
+        "stop" : 1688830230502,
+        "duration" : 163
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Нельзя создать юзера, не указав пароль",
+      "uid" : "766da4284d9eb58b",
+      "parentUid" : "81a99bf7ba00f1ab1483b62d0acb178f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1688830230505,
+        "stop" : 1688830230651,
+        "duration" : 146
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "81a99bf7ba00f1ab1483b62d0acb178f"
+  }, {
+    "name" : "ru.praktikum.burgers.api.user.register.UserRegisterPositiveTest",
+    "children" : [ {
+      "name" : "Регистрация юзера",
+      "uid" : "42c3aca028845c29",
+      "parentUid" : "26c9e27f58ec2f224bf92d99ee46e29c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1688830230654,
+        "stop" : 1688830231194,
+        "duration" : 540
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "26c9e27f58ec2f224bf92d99ee46e29c"
+  }, {
+    "name" : "ru.praktikum.burgers.api.user.update.UserUpdateNegativeTest",
+    "children" : [ {
+      "name" : "Изменение данных пользователя невозможно без авторизацией",
+      "uid" : "b277f13d5789ecd6",
+      "parentUid" : "c423f807a881b675a7187dac5bf776be",
+      "status" : "passed",
+      "time" : {
+        "start" : 1688830231196,
+        "stop" : 1688830231338,
+        "duration" : 142
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "c423f807a881b675a7187dac5bf776be"
+  }, {
+    "name" : "ru.praktikum.burgers.api.user.update.UserUpdatePositiveTest",
+    "children" : [ {
+      "name" : "Изменение данных пользователя с авторизацией",
+      "uid" : "e1f3374ef07f68f7",
+      "parentUid" : "6a6a5611c71c6c954d2587bc5428c031",
+      "status" : "passed",
+      "time" : {
+        "start" : 1688830231342,
+        "stop" : 1688830232543,
+        "duration" : 1201
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "6a6a5611c71c6c954d2587bc5428c031"
+  }, {
+    "name" : "ru.praktikum.burgers.api.user.login.UserLoginPositiveTest",
+    "children" : [ {
+      "name" : "Авторизация юзера",
+      "uid" : "ea670944c8560d71",
+      "parentUid" : "710836dcedb6a394c99ac1d8f6c8ecea",
+      "status" : "passed",
+      "time" : {
+        "start" : 1688830232548,
+        "stop" : 1688830233295,
+        "duration" : 747
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "710836dcedb6a394c99ac1d8f6c8ecea"
+  }, {
+    "name" : "ru.praktikum.burgers.api.user.login.UserLoginNegativeTests",
+    "children" : [ {
+      "name" : "Авторизация юзера невозможна с неправильным паролем",
+      "uid" : "2efa9272a803db66",
+      "parentUid" : "ca59574a43d6f1bbaf878162bad79e30",
+      "status" : "passed",
+      "time" : {
+        "start" : 1688830233302,
+        "stop" : 1688830234028,
+        "duration" : 726
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Авторизация юзера невозможна с неправильным паролем",
+      "uid" : "79f89f823d768c9a",
+      "parentUid" : "ca59574a43d6f1bbaf878162bad79e30",
+      "status" : "passed",
+      "time" : {
+        "start" : 1688830234030,
+        "stop" : 1688830234648,
+        "duration" : 618
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "ca59574a43d6f1bbaf878162bad79e30"
+  } ],
+  "name" : "suites"
+}

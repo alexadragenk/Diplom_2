@@ -1,0 +1,171 @@
+{
+  "uid" : "7727cf45d77ab1c0",
+  "name" : "Создание заказа без авторизации",
+  "fullName" : "ru.praktikum.burgers.api.order.create.CreateOrderPositiveTest.OrderCanBeCreatedWithoutAuth",
+  "historyId" : "2fa8a9aec62311212903bcae4afda292",
+  "time" : {
+    "start" : 1688830227009,
+    "stop" : 1688830228083,
+    "duration" : 1074
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Генерация данных пользователя",
+      "time" : {
+        "start" : 1688830227009,
+        "stop" : 1688830227009,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Регистрация пользователя",
+      "time" : {
+        "start" : 1688830227009,
+        "stop" : 1688830227226,
+        "duration" : 217
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "ru.praktikum.burgers.api.model.User@5e8a678a"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Авторизация пользователя",
+      "time" : {
+        "start" : 1688830227244,
+        "stop" : 1688830227447,
+        "duration" : 203
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "credentials",
+        "value" : "ru.praktikum.burgers.api.model.Credentials@4babe06f"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Получение списка ингредиентов",
+      "time" : {
+        "start" : 1688830227466,
+        "stop" : 1688830227627,
+        "duration" : 161
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Создание заказа",
+      "time" : {
+        "start" : 1688830227654,
+        "stop" : 1688830227786,
+        "duration" : 132
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "ingredients",
+        "value" : "ru.praktikum.burgers.api.model.Ingredients@4960b819"
+      }, {
+        "name" : "token",
+        "value" : ""
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Удаление пользователя",
+      "time" : {
+        "start" : 1688830227799,
+        "stop" : 1688830228059,
+        "duration" : 260
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "token",
+        "value" : "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0YTk4MTEzOWVkMjgwMDAxYjM0NDY2OCIsImlhdCI6MTY4ODgzMDIyNywiZXhwIjoxNjg4ODMxNDI3fQ.AuP03Mjbhm9zULn_BsnXzgSKfjAEXYOshlromjIB_8g"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 6,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "ru.praktikum.burgers.api.order.create"
+  }, {
+    "name" : "testClass",
+    "value" : "ru.praktikum.burgers.api.order.create.CreateOrderPositiveTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "OrderCanBeCreatedWithoutAuth"
+  }, {
+    "name" : "suite",
+    "value" : "ru.praktikum.burgers.api.order.create.CreateOrderPositiveTest"
+  }, {
+    "name" : "host",
+    "value" : "alexandra"
+  }, {
+    "name" : "thread",
+    "value" : "68606@alexandra.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7727cf45d77ab1c0.json",
+  "parameterValues" : [ ]
+}

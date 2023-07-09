@@ -1,1 +1,221 @@
-{"uid":"ab17fc5a4eb3bca4b216b548c7f9fcbc","children":[{"name":"userDataCannotBeUpdatedWithoutAuth","uid":"126262d19453cd89","parentUid":"ab17fc5a4eb3bca4b216b548c7f9fcbc","status":"passed","time":{"duration":148},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":0,"retriesStatusChange":false,"parameters":[],"tags":[]},{"name":"passwordIsRequired","uid":"dc48f2680232e8e3","parentUid":"ab17fc5a4eb3bca4b216b548c7f9fcbc","status":"passed","time":{"duration":154},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":0,"retriesStatusChange":false,"parameters":[],"tags":[]},{"name":"emailIsRequired","uid":"235dbe8dd7c6e59b","parentUid":"ab17fc5a4eb3bca4b216b548c7f9fcbc","status":"passed","time":{"duration":143},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":0,"retriesStatusChange":false,"parameters":[],"tags":[]},{"name":"nameIsRequired","uid":"84c714b62b7f4b42","parentUid":"ab17fc5a4eb3bca4b216b548c7f9fcbc","status":"passed","time":{"duration":150},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":0,"retriesStatusChange":false,"parameters":[],"tags":[]},{"name":"userCanBeRegistrated","uid":"2519686aa4babff2","parentUid":"ab17fc5a4eb3bca4b216b548c7f9fcbc","status":"passed","time":{"duration":605},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":0,"retriesStatusChange":false,"parameters":[],"tags":[]},{"name":"loginWithWrongPassword","uid":"7ac45e269d9caf42","parentUid":"ab17fc5a4eb3bca4b216b548c7f9fcbc","status":"passed","time":{"duration":750},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":0,"retriesStatusChange":false,"parameters":[],"tags":[]},{"name":"userCanLogin","uid":"141168073a41bd87","parentUid":"ab17fc5a4eb3bca4b216b548c7f9fcbc","status":"passed","time":{"duration":709},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":0,"retriesStatusChange":false,"parameters":[],"tags":[]},{"name":"OrderCannotBeCreatedWithWrongIngredients","uid":"de1c7112cedc5e2f","parentUid":"ab17fc5a4eb3bca4b216b548c7f9fcbc","status":"passed","time":{"duration":961},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":0,"retriesStatusChange":false,"parameters":[],"tags":[]},{"name":"userDataCanBeUpdated","uid":"3f6be58d63d0da91","parentUid":"ab17fc5a4eb3bca4b216b548c7f9fcbc","status":"passed","time":{"duration":1224},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":0,"retriesStatusChange":false,"parameters":[],"tags":[]},{"name":"orderListCanBeGottenWithAuth","uid":"44c2ef9950776f39","parentUid":"ab17fc5a4eb3bca4b216b548c7f9fcbc","status":"passed","time":{"duration":4059},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":0,"retriesStatusChange":false,"parameters":[],"tags":[]},{"name":"OrderCanBeCreated","uid":"c00f323731436ab3","parentUid":"ab17fc5a4eb3bca4b216b548c7f9fcbc","status":"passed","time":{"duration":1406},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":0,"retriesStatusChange":false,"parameters":[],"tags":[]},{"name":"orderListCanBeGottenWithAuth","uid":"1ab4cd10c9343327","parentUid":"ab17fc5a4eb3bca4b216b548c7f9fcbc","status":"passed","time":{"duration":961},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":0,"retriesStatusChange":false,"parameters":[],"tags":[]},{"name":"OrderCannotBeCreatedWithoutIngredients","uid":"5a15f144dc81599","parentUid":"ab17fc5a4eb3bca4b216b548c7f9fcbc","status":"passed","time":{"duration":862},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":0,"retriesStatusChange":false,"parameters":[],"tags":[]},{"name":"loginWithWrongEmail","uid":"2749f7697da2f120","parentUid":"ab17fc5a4eb3bca4b216b548c7f9fcbc","status":"passed","time":{"duration":672},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":0,"retriesStatusChange":false,"parameters":[],"tags":[]},{"name":"sameUserCannotBeRegistrated","uid":"d3dfeacb9abccacd","parentUid":"ab17fc5a4eb3bca4b216b548c7f9fcbc","status":"passed","time":{"duration":333},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":0,"retriesStatusChange":false,"parameters":[],"tags":[]},{"name":"OrderCanBeCreatedWithoutAuth","uid":"6630df700d02cc49","parentUid":"ab17fc5a4eb3bca4b216b548c7f9fcbc","status":"passed","time":{"duration":1132},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":0,"retriesStatusChange":false,"parameters":[],"tags":[]}],"name":"timeline"}
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "children" : [ {
+    "name" : "alexandra",
+    "children" : [ {
+      "name" : "68606@alexandra.main(1)",
+      "children" : [ {
+        "name" : "Получение списока заказов с авторизацией",
+        "uid" : "ec0552a0236ed758",
+        "parentUid" : "297d73525b7bd3944484002b6171f6a0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1688830228932,
+          "stop" : 1688830229839,
+          "duration" : 907
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Создание заказа без авторизации",
+        "uid" : "7727cf45d77ab1c0",
+        "parentUid" : "297d73525b7bd3944484002b6171f6a0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1688830227009,
+          "stop" : 1688830228083,
+          "duration" : 1074
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Изменение данных пользователя с авторизацией",
+        "uid" : "e1f3374ef07f68f7",
+        "parentUid" : "297d73525b7bd3944484002b6171f6a0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1688830231342,
+          "stop" : 1688830232543,
+          "duration" : 1201
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Авторизация юзера",
+        "uid" : "ea670944c8560d71",
+        "parentUid" : "297d73525b7bd3944484002b6171f6a0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1688830232548,
+          "stop" : 1688830233295,
+          "duration" : 747
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Авторизация юзера невозможна с неправильным паролем",
+        "uid" : "79f89f823d768c9a",
+        "parentUid" : "297d73525b7bd3944484002b6171f6a0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1688830234030,
+          "stop" : 1688830234648,
+          "duration" : 618
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Нельзя получить список заказов без авторизации",
+        "uid" : "7932bb59a37e3c3d",
+        "parentUid" : "297d73525b7bd3944484002b6171f6a0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1688830228092,
+          "stop" : 1688830228928,
+          "duration" : 836
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Нельзя создать юзера, не указав email",
+        "uid" : "b6ba06d4617808f5",
+        "parentUid" : "297d73525b7bd3944484002b6171f6a0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1688830230339,
+          "stop" : 1688830230502,
+          "duration" : 163
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Нельзя создать юзера, не указав пароль",
+        "uid" : "766da4284d9eb58b",
+        "parentUid" : "297d73525b7bd3944484002b6171f6a0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1688830230505,
+          "stop" : 1688830230651,
+          "duration" : 146
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Нельзя создать двух одинаковых юзеров",
+        "uid" : "eb68a72e04277176",
+        "parentUid" : "297d73525b7bd3944484002b6171f6a0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1688830229984,
+          "stop" : 1688830230337,
+          "duration" : 353
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Нельзя создать заказ с неправильным ингредиентом",
+        "uid" : "a730a14063779ae4",
+        "parentUid" : "297d73525b7bd3944484002b6171f6a0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1688830220363,
+          "stop" : 1688830224528,
+          "duration" : 4165
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Нельзя создать заказ без указания ингредиентов",
+        "uid" : "a5035b8a305ba259",
+        "parentUid" : "297d73525b7bd3944484002b6171f6a0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1688830224623,
+          "stop" : 1688830225502,
+          "duration" : 879
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Авторизация юзера невозможна с неправильным паролем",
+        "uid" : "2efa9272a803db66",
+        "parentUid" : "297d73525b7bd3944484002b6171f6a0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1688830233302,
+          "stop" : 1688830234028,
+          "duration" : 726
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Регистрация юзера",
+        "uid" : "42c3aca028845c29",
+        "parentUid" : "297d73525b7bd3944484002b6171f6a0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1688830230654,
+          "stop" : 1688830231194,
+          "duration" : 540
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Нельзя создать юзера, не указав имя",
+        "uid" : "4eb4733d9cb65c0e",
+        "parentUid" : "297d73525b7bd3944484002b6171f6a0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1688830229841,
+          "stop" : 1688830229983,
+          "duration" : 142
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Изменение данных пользователя невозможно без авторизацией",
+        "uid" : "b277f13d5789ecd6",
+        "parentUid" : "297d73525b7bd3944484002b6171f6a0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1688830231196,
+          "stop" : 1688830231338,
+          "duration" : 142
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Создание заказа",
+        "uid" : "660a3929946ca0f5",
+        "parentUid" : "297d73525b7bd3944484002b6171f6a0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1688830225507,
+          "stop" : 1688830227006,
+          "duration" : 1499
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "297d73525b7bd3944484002b6171f6a0"
+    } ],
+    "uid" : "ed73f66c88363da5b5a71ec35a149de5"
+  } ],
+  "name" : "timeline"
+}
