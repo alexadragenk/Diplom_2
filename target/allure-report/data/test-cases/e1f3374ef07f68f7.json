@@ -1,0 +1,189 @@
+{
+  "uid" : "e1f3374ef07f68f7",
+  "name" : "Изменение данных пользователя с авторизацией",
+  "fullName" : "ru.praktikum.burgers.api.user.update.UserUpdatePositiveTest.userDataCanBeUpdated",
+  "historyId" : "35c5927e5244b79d44976abb5e260ea8",
+  "time" : {
+    "start" : 1688830231342,
+    "stop" : 1688830232543,
+    "duration" : 1201
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Генерация данных пользователя",
+      "time" : {
+        "start" : 1688830231342,
+        "stop" : 1688830231343,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Регистрация пользователя",
+      "time" : {
+        "start" : 1688830231343,
+        "stop" : 1688830231552,
+        "duration" : 209
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "ru.praktikum.burgers.api.model.User@58df431e"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Авторизация пользователя",
+      "time" : {
+        "start" : 1688830231570,
+        "stop" : 1688830231790,
+        "duration" : 220
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "credentials",
+        "value" : "ru.praktikum.burgers.api.model.Credentials@6b5c4b75"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Генерация данных пользователя",
+      "time" : {
+        "start" : 1688830231803,
+        "stop" : 1688830231804,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Изменение данных пользователя",
+      "time" : {
+        "start" : 1688830231804,
+        "stop" : 1688830232019,
+        "duration" : 215
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "ru.praktikum.burgers.api.model.User@3509f32d"
+      }, {
+        "name" : "token",
+        "value" : "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0YTk4MTE3OWVkMjgwMDAxYjM0NDY3NSIsImlhdCI6MTY4ODgzMDIzMSwiZXhwIjoxNjg4ODMxNDMxfQ.X4sebcsjC_BecVpudxikWomo9tqEgKiVAayvhZRw--g"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Авторизация пользователя",
+      "time" : {
+        "start" : 1688830232068,
+        "stop" : 1688830232279,
+        "duration" : 211
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "credentials",
+        "value" : "ru.praktikum.burgers.api.model.Credentials@5fdebe73"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Удаление пользователя",
+      "time" : {
+        "start" : 1688830232279,
+        "stop" : 1688830232527,
+        "duration" : 248
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "token",
+        "value" : "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0YTk4MTE3OWVkMjgwMDAxYjM0NDY3NSIsImlhdCI6MTY4ODgzMDIzMSwiZXhwIjoxNjg4ODMxNDMxfQ.X4sebcsjC_BecVpudxikWomo9tqEgKiVAayvhZRw--g"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 7,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "ru.praktikum.burgers.api.user.update"
+  }, {
+    "name" : "testClass",
+    "value" : "ru.praktikum.burgers.api.user.update.UserUpdatePositiveTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "userDataCanBeUpdated"
+  }, {
+    "name" : "suite",
+    "value" : "ru.praktikum.burgers.api.user.update.UserUpdatePositiveTest"
+  }, {
+    "name" : "host",
+    "value" : "alexandra"
+  }, {
+    "name" : "thread",
+    "value" : "68606@alexandra.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e1f3374ef07f68f7.json",
+  "parameterValues" : [ ]
+}

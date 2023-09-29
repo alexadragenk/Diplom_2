@@ -1,0 +1,114 @@
+{
+  "total" : 10,
+  "items" : [ {
+    "uid" : "81a99bf7ba00f1ab1483b62d0acb178f",
+    "name" : "ru.praktikum.burgers.api.user.register.UserRegisterNegativeTests",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 4,
+      "unknown" : 0,
+      "total" : 4
+    }
+  }, {
+    "uid" : "fb86f08f32bd8037bd278be699b777ce",
+    "name" : "ru.praktikum.burgers.api.order.create.CreateOrderNegativeTest",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    }
+  }, {
+    "uid" : "c798615d4a03b6bc575a11ee3438af64",
+    "name" : "ru.praktikum.burgers.api.order.create.CreateOrderPositiveTest",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    }
+  }, {
+    "uid" : "ca59574a43d6f1bbaf878162bad79e30",
+    "name" : "ru.praktikum.burgers.api.user.login.UserLoginNegativeTests",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    }
+  }, {
+    "uid" : "65e01d6878d507cdc3e5d7bb23ac25f1",
+    "name" : "ru.praktikum.burgers.api.order.get.GetUserOrderWithoutAuthTest",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "a1cf2ccc3941cbbbf18f32329622bb3a",
+    "name" : "ru.praktikum.burgers.api.order.get.GetUserOrderWithAuthTest",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "26c9e27f58ec2f224bf92d99ee46e29c",
+    "name" : "ru.praktikum.burgers.api.user.register.UserRegisterPositiveTest",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "c423f807a881b675a7187dac5bf776be",
+    "name" : "ru.praktikum.burgers.api.user.update.UserUpdateNegativeTest",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "6a6a5611c71c6c954d2587bc5428c031",
+    "name" : "ru.praktikum.burgers.api.user.update.UserUpdatePositiveTest",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "710836dcedb6a394c99ac1d8f6c8ecea",
+    "name" : "ru.praktikum.burgers.api.user.login.UserLoginPositiveTest",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  } ]
+}

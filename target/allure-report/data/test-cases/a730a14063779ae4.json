@@ -1,0 +1,156 @@
+{
+  "uid" : "a730a14063779ae4",
+  "name" : "Нельзя создать заказ с неправильным ингредиентом",
+  "fullName" : "ru.praktikum.burgers.api.order.create.CreateOrderNegativeTest.OrderCannotBeCreatedWithWrongIngredients",
+  "historyId" : "b7f8d46006177334479a04f01f80548e",
+  "time" : {
+    "start" : 1688830220363,
+    "stop" : 1688830224528,
+    "duration" : 4165
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Генерация данных пользователя",
+      "time" : {
+        "start" : 1688830220426,
+        "stop" : 1688830220430,
+        "duration" : 4
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Регистрация пользователя",
+      "time" : {
+        "start" : 1688830220446,
+        "stop" : 1688830222743,
+        "duration" : 2297
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "ru.praktikum.burgers.api.model.User@1abc9f14"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Авторизация пользователя",
+      "time" : {
+        "start" : 1688830223475,
+        "stop" : 1688830223816,
+        "duration" : 341
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "credentials",
+        "value" : "ru.praktikum.burgers.api.model.Credentials@70f76276"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Создание заказа",
+      "time" : {
+        "start" : 1688830223830,
+        "stop" : 1688830223975,
+        "duration" : 145
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "ingredients",
+        "value" : "ru.praktikum.burgers.api.model.Ingredients@282aea3c"
+      }, {
+        "name" : "token",
+        "value" : "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0YTk4MTBlOWVkMjgwMDAxYjM0NDY1ZSIsImlhdCI6MTY4ODgzMDIyMiwiZXhwIjoxNjg4ODMxNDIyfQ.CI2W_Hu8JvVOe26cwKMTvjbxfDheX0Sw69SGZj4YI9Q"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Удаление пользователя",
+      "time" : {
+        "start" : 1688830223975,
+        "stop" : 1688830224512,
+        "duration" : 537
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "token",
+        "value" : "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0YTk4MTBlOWVkMjgwMDAxYjM0NDY1ZSIsImlhdCI6MTY4ODgzMDIyMiwiZXhwIjoxNjg4ODMxNDIyfQ.CI2W_Hu8JvVOe26cwKMTvjbxfDheX0Sw69SGZj4YI9Q"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 5,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "ru.praktikum.burgers.api.order.create"
+  }, {
+    "name" : "testClass",
+    "value" : "ru.praktikum.burgers.api.order.create.CreateOrderNegativeTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "OrderCannotBeCreatedWithWrongIngredients"
+  }, {
+    "name" : "suite",
+    "value" : "ru.praktikum.burgers.api.order.create.CreateOrderNegativeTest"
+  }, {
+    "name" : "host",
+    "value" : "alexandra"
+  }, {
+    "name" : "thread",
+    "value" : "68606@alexandra.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a730a14063779ae4.json",
+  "parameterValues" : [ ]
+}

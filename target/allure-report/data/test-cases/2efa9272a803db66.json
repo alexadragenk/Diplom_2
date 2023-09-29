@@ -1,0 +1,135 @@
+{
+  "uid" : "2efa9272a803db66",
+  "name" : "Авторизация юзера невозможна с неправильным паролем",
+  "fullName" : "ru.praktikum.burgers.api.user.login.UserLoginNegativeTests.loginWithWrongPassword",
+  "historyId" : "c8ef5deaf3d88aa1737fb72a0c424eed",
+  "time" : {
+    "start" : 1688830233302,
+    "stop" : 1688830234028,
+    "duration" : 726
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Генерация данных пользователя",
+      "time" : {
+        "start" : 1688830233303,
+        "stop" : 1688830233303,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Регистрация пользователя",
+      "time" : {
+        "start" : 1688830233303,
+        "stop" : 1688830233511,
+        "duration" : 208
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "ru.praktikum.burgers.api.model.User@22c4151b"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Авторизация пользователя",
+      "time" : {
+        "start" : 1688830233528,
+        "stop" : 1688830233723,
+        "duration" : 195
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "credentials",
+        "value" : "ru.praktikum.burgers.api.model.Credentials@53d94a6b"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Удаление пользователя",
+      "time" : {
+        "start" : 1688830233740,
+        "stop" : 1688830234017,
+        "duration" : 277
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "token",
+        "value" : "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0YTk4MTE5OWVkMjgwMDAxYjM0NDY3YyIsImlhdCI6MTY4ODgzMDIzMywiZXhwIjoxNjg4ODMxNDMzfQ.em_pmu_b02rObicz-L5Ny4b4dIGFt2VddQwC0au15CM"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "ru.praktikum.burgers.api.user.login"
+  }, {
+    "name" : "testClass",
+    "value" : "ru.praktikum.burgers.api.user.login.UserLoginNegativeTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "loginWithWrongPassword"
+  }, {
+    "name" : "suite",
+    "value" : "ru.praktikum.burgers.api.user.login.UserLoginNegativeTests"
+  }, {
+    "name" : "host",
+    "value" : "alexandra"
+  }, {
+    "name" : "thread",
+    "value" : "68606@alexandra.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "2efa9272a803db66.json",
+  "parameterValues" : [ ]
+}

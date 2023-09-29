@@ -1,0 +1,99 @@
+{
+  "uid" : "766da4284d9eb58b",
+  "name" : "Нельзя создать юзера, не указав пароль",
+  "fullName" : "ru.praktikum.burgers.api.user.register.UserRegisterNegativeTests.passwordIsRequired",
+  "historyId" : "f70907e4c3521c7bf2ba3604db4bfea3",
+  "time" : {
+    "start" : 1688830230505,
+    "stop" : 1688830230651,
+    "duration" : 146
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Генерация данных пользователя без пароля",
+      "time" : {
+        "start" : 1688830230506,
+        "stop" : 1688830230506,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Регистрация пользователя",
+      "time" : {
+        "start" : 1688830230506,
+        "stop" : 1688830230635,
+        "duration" : 129
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "ru.praktikum.burgers.api.model.User@327ac23"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "ru.praktikum.burgers.api.user.register"
+  }, {
+    "name" : "testClass",
+    "value" : "ru.praktikum.burgers.api.user.register.UserRegisterNegativeTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "passwordIsRequired"
+  }, {
+    "name" : "suite",
+    "value" : "ru.praktikum.burgers.api.user.register.UserRegisterNegativeTests"
+  }, {
+    "name" : "host",
+    "value" : "alexandra"
+  }, {
+    "name" : "thread",
+    "value" : "68606@alexandra.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "766da4284d9eb58b.json",
+  "parameterValues" : [ ]
+}
